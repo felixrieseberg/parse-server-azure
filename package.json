@@ -1,0 +1,28 @@
+{
+  "name": "parse-server-azure",
+  "version": "0.1.0",
+  "description": "Adapters, tools, and documentation to use Parse-Server with Microsoft Azure",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixrieseberg/parse-server-azure.git"
+  },
+  "keywords": [
+    "Azure",
+    "Parse",
+    "Parse-Server",
+    "Microsoft"
+  ],
+  "author": "Felix Rieseberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixrieseberg/parse-server-azure/issues"
+  },
+  "homepage": "https://github.com/felixrieseberg/parse-server-azure#readme",
+  "dependencies": {
+    "parse-server-azure-storage": "^0.2.3"
+},
+  "engines": {
+    "node": ">=4.3"
+  }
+}
