@@ -1,5 +1,5 @@
 # Parse-Server-Azure
-<a href="https://www.npmjs.com/package/parse-server-azure"><img src="https://badge.fury.io/js/parse-server-azure.svg" alt="npm version" height="18"></a> <a href="https://david-dm.org/felixrieseberg/parse-server-azure"><img src="https://david-dm.org/felixrieseberg/parse-server-azure.svg" alt="dependencies" height="18px"></a> Adapters, tools, and documentation to use Parse-Server with Microsoft Azure.
+<a href="https://www.npmjs.com/package/parse-server-azure"><img src="https://badge.fury.io/js/parse-server-azure.svg" alt="npm version" height="18"></a> <a href="https://david-dm.org/felixrieseberg/parse-server-azure"><img src="https://david-dm.org/felixrieseberg/parse-server-azure.svg" alt="dependencies" height="18px"></a> Adapters, tools, and documentation to use Parse-Server with Microsoft Azure, brought to you by your friends at Microsoft.
 
 ## FilesAdapter
 By default, Parse-Server uses the `GridStoreAdapter` to store files, meaning that files will be stored in the connected database. For better performance, you can store files in Azure Blob Storage, using this module's `FilesAdapter`.
