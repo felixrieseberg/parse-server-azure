@@ -4,7 +4,7 @@
 ## FilesAdapter
 By default, Parse-Server uses the `GridStoreAdapter` to store files, meaning that files will be stored in the connected database. For better performance, you can store files in Azure Blob Storage, using this module's `FilesAdapter`.
 
-```
+```js
 var ParseServer         = require('parse-server').ParseServer;
 var AzureStorageAdapter = require('parse-server-azure').FilesAdapter;
 
