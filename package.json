@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/felixrieseberg/parse-server-azure#readme",
   "dependencies": {
-    "parse-server-azure-storage": "^0.3.0"
+    "parse-server-azure-storage": "^1.0.1"
   },
   "engines": {
     "node": ">=4.3"

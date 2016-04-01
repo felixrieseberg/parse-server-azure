@@ -3,6 +3,17 @@
 
 > :memo: Find detailed instructions in the [Wiki](https://github.com/felixrieseberg/parse-server-azure/wiki)!
 
+```
+npm install parse-server-azure
+```
+
+If you're using `parse-server` at version 2.2 (or below), please install with:
+
+```
+npm install parse-server-azure-storage@0.1.2
+```
+
+
 ## FilesAdapter
 By default, Parse-Server uses the `GridStoreAdapter` to store files, meaning that files will be stored in the connected database. For better performance, you can store files in Azure Blob Storage, using this module's `FilesAdapter`.
 
