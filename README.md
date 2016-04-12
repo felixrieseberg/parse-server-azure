@@ -13,6 +13,20 @@ If you're using `parse-server` at version 2.2 (or below), please install with:
 npm install parse-server-azure@0.1.2
 ```
 
+## General Usage
+
+```js
+...
+var ParseServerAzure = require('parse-server-azure');
+var api = new ParseServer({
+    ...
+    filesAdapter: new ParseServerAzure.FilesAdapter(account, container, filesOptions),
+    pushAdapter: new ParseServerAzure.PushAdapter(pushOptions)
+    ...
+});
+...
+```
+
 ## FilesAdapter
 By default, Parse-Server uses the `GridStoreAdapter` to store files, meaning that files will be stored in the connected database. For better performance, you can store files in Azure Blob Storage, using this module's `FilesAdapter`.
 
@@ -39,6 +53,11 @@ var api = new ParseServer({
 By default, Parse will proxy all files - meaning that your end user accesses the files via your open source Parse-Server, not directly by going to Azure Blob storage. This is useful if you want files to only be accessible for logged in users or have otherwise security considerations.
 
 If your files can be public, you'll win performance by accessing files directly on Azure Blob Storage. To enable, ensure that your container's security policy is set to `blob`. Then, in your adapter options, set `directAccess: true`.
+
+## PushAdapter
+
+Find the most up to date documentation at the repository:
+https://github.com/mamaso/parse-server-azure-push
 
 ## License
 The MIT License (MIT); Copyright (c) 2016 Microsoft Corporation. Please see `LICENSE` for details.
