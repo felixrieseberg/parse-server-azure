@@ -1,6 +1,6 @@
 {
   "name": "parse-server-azure",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Adapters, tools, and documentation to use Parse-Server with Microsoft Azure",
   "main": "index.js",
   "repository": {
